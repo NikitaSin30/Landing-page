@@ -2,7 +2,120 @@
   padding: 0;
   margin: 0;
   color: black;
-  font-size: 15px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
   font-family: "Quicksand", sans-serif;
   font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1.55em;
+  background-color: white;
+}
+
+.header {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  font-size: 16px;
+  width: 100%;
+  max-width: 1110px;
+  margin: auto;
+}
+
+.header_mapPhone {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.map {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.5s linear;
+}
+.map:hover {
+  color: blue;
+}
+.call {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.5s linear;
+}
+.call:hover {
+  color: blue;
+}
+.nav {
+  align-items: center;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  text-decoration: none;
+}
+.nav_link {
+  text-decoration: none;
+  margin-right: 110px;
+  color: white;
+  transition: color 0.5s linear;
+}
+.nav_link:first-child {
+  margin-left: 100px;
+}
+.nav_link:hover {
+  color: blue;
+}
+
+.first {
+  height: 900px;
+  width: 1894px;
+  background: url(/img/fon.jpg) center no-repeat;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.offer {
+  align-items: center;
+  text-align: center;
+  padding-top: 710px;
+  padding-bottom: 165;
+}
+.btn {
+  color: white;
+  background: #99862a;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px 15px 30px;
+}
+.btn:hover {
+  background-color: #996312;
+}
+
+.second {
+  position: absolute;
+  background: #282828;
+  height: 856px;
+  width: 1894px;
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+.container_second {
+  font-size: 16px;
+  width: 100%;
+  max-width: 1110px;
+  margin: auto;
+}
+.taste {
+  align-items: center;
+  text-align: center;
+  left: 0;
+  top: 0;
 }
