@@ -104,18 +104,51 @@
   background: #282828;
   height: 856px;
   width: 1894px;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display";
   color: white;
 }
 .container_second {
-  font-size: 16px;
-  width: 100%;
+  width: auto;
   max-width: 1110px;
   margin: auto;
 }
 .taste {
   align-items: center;
   text-align: center;
-  left: 0;
-  top: 0;
+  width: auto;
+  height: 660px;
+  margin-top: 100px;
+  box-sizing: content-box;
+}
+.content-box {
+  box-sizing: border-box;
+  border: 2px solid white;
+}
+h1 {
+  margin-top: 60px;
+  font-size: 30px;
+  font-family: "Playfair Display";
+  line-height: 150%;
+}
+hr {
+  width: 160px;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: lighter;
+  max-height: 193px;
+  max-width: 733px;
+  margin-left: 188px;
+}
+.wineglass {
+  width: 160px;
+  height: 160px;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
 }
