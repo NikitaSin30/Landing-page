@@ -10,6 +10,7 @@
   letter-spacing: 0.03em;
   line-height: 1.55em;
   background-color: white;
+  max-width: 1110px;
 }
 
 .header {
@@ -98,7 +99,9 @@
 .btn:hover {
   background-color: #996312;
 }
-
+.btn:active {
+  background-color: #633d04;
+}
 .second {
   position: relative;
   background: #282828;
@@ -163,20 +166,28 @@ h2 {
   top: 0;
   left: 0;
   z-index: 1000;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
 }
 .container {
   width: auto;
   max-width: 1110px;
   margin: auto;
   height: 900px;
+  font-size: 16px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .slider {
   /* align-items: center; */
-  position: relative;
-  max-width: 80%;
+  /* position: relative; */
+
+  max-width: 100%;
   height: 600px;
   border: 2px solid black;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
   overflow: hidden;
 }
 .slider-line {
@@ -184,4 +195,10 @@ h2 {
   height: 600px;
   width: 1800px;
   transition: all ease 1s;
+}
+.buttonPN {
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
 }
