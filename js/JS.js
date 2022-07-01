@@ -16,6 +16,14 @@ function init() {
 window.addEventListener("resize", init);
 init();
 
+document.querySelector(".slider-past").addEventListener("click", function () {
+  count--;
+  if (count < 0) {
+    count = images.length - 1;
+  }
+  rollSlider();
+});
+
 document.querySelector(".slider-next").addEventListener("click", function () {
   count++;
   if (count >= images.length) {
