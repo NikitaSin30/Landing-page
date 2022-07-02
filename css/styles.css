@@ -26,6 +26,7 @@
   width: 100%;
   max-width: 1110px;
   margin: auto;
+  margin: auto;
 }
 
 .header_mapPhone {
@@ -111,18 +112,14 @@
   font-family: "Playfair Display";
   color: white;
 }
-.container_second {
-  width: auto;
-  max-width: 1110px;
-  margin: auto;
-  padding-top: 100px;
-}
+
 .taste {
   align-items: center;
   text-align: center;
   width: auto;
   height: 660px;
   box-sizing: content-box;
+  padding-top: 100px;
 }
 .content-box {
   margin-top: 0px;
@@ -199,4 +196,143 @@ h2 {
   width: 100%;
   max-width: 1100px;
   left: 0;
+}
+
+.four {
+  position: relative;
+  width: 1894px;
+  height: 720px;
+  background: #282828;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.fourC {
+  display: flex;
+  justify-content: center;
+
+  width: 1894px;
+  height: 720px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  font-size: 16px;
+}
+
+.record {
+  position: absolute;
+  width: 1110px;
+  height: 580px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  margin-top: 129px;
+  text-align: center;
+}
+
+.titleRecord {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  color: white;
+
+  margin-top: 80px;
+}
+
+.fourHr {
+  width: 120px;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+h3 {
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: lighter;
+  height: 72px;
+  width: 539px;
+  color: white;
+  margin-left: 285px;
+  margin-right: 285px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.grape {
+  position: absolute;
+  z-index: 2000;
+  margin-left: 375px;
+  margin-top: 64px;
+}
+.r {
+  position: absolute;
+  z-index: 2000;
+  margin-left: 1300px;
+  margin-right: 450px;
+  margin-top: 64px;
+}
+
+.recordPage {
+  position: absolute;
+
+  z-index: 1900;
+
+  margin-top: 90px;
+  margin-bottom: 80px;
+}
+input {
+  outline: none;
+}
+
+.name {
+  width: 254px;
+  height: 20px;
+  background: #282828;
+  color: white;
+  border: 0;
+
+  /* border-bottom: 1px solid white; */
+}
+.name:hover {
+  background: #181717;
+}
+
+.phone {
+  width: 254px;
+  height: 20px;
+  background: #282828;
+  margin-bottom: 40px;
+  color: white;
+  border: 0;
+}
+.phone:hover {
+  background: #181717;
+}
+
+select {
+  display: flex;
+  margin-left: 290px;
+  margin-top: 40px;
+  font-family: "Montserrat";
+  width: 254px;
+  height: 20px;
+  color: white;
+  background: #282828;
+  margin-bottom: 40px;
+  border: 0;
+}
+
+.recording {
+  font-size: 18px;
+  font-family: "Montserrat";
+  width: 540px;
+  height: 60px;
+  background: #282828;
+  color: white;
+
+  border-color: white;
+  border-style: solid;
+  margin-top: 50px;
+  transition: color 0.5s linear;
+}
+.recording:hover {
+  background: #181717;
 }
