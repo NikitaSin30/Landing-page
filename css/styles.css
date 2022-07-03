@@ -105,22 +105,23 @@
   background-color: #633d04;
 }
 .second {
+  display: flex;
+  left: 0;
+  top: 0;
   position: relative;
   background: #282828;
-  height: 856px;
+  /* height: 856px; */
   width: 1894px;
   font-family: "Playfair Display";
   color: white;
-}
-
-.taste {
   align-items: center;
   text-align: center;
-  width: auto;
-  height: 660px;
+
+  height: 700px;
   box-sizing: content-box;
-  padding-top: 100px;
+  padding-top: 20px;
 }
+
 .content-box {
   margin-top: 0px;
   box-sizing: border-box;
@@ -210,7 +211,6 @@ h2 {
 .fourC {
   display: flex;
   justify-content: center;
-
   width: 1894px;
   height: 720px;
   top: 0;
@@ -225,10 +225,12 @@ h2 {
   height: 580px;
   box-sizing: border-box;
   border: 2px solid white;
-  margin-top: 129px;
+  margin-top: 80px;
   text-align: center;
 }
-
+::placeholder {
+  color: white;
+}
 .titleRecord {
   font-size: 36px;
   font-family: "Playfair Display", serif;
@@ -276,32 +278,34 @@ h3 {
   z-index: 1900;
 
   margin-top: 90px;
-  margin-bottom: 80px;
-}
-input {
-  outline: none;
+  margin-bottom: 90px;
 }
 
 .name {
-  width: 254px;
+  width: 240px;
   height: 20px;
   background: #282828;
   color: white;
   border: 0;
-
-  /* border-bottom: 1px solid white; */
+  margin-right: 39px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+  border-color: white;
 }
 .name:hover {
   background: #181717;
 }
 
 .phone {
-  width: 254px;
+  width: 240px;
   height: 20px;
   background: #282828;
   margin-bottom: 40px;
   color: white;
+  padding: 5px;
   border: 0;
+  border-bottom: 1px solid white;
+  border-color: white;
 }
 .phone:hover {
   background: #181717;
@@ -310,16 +314,23 @@ input {
 select {
   display: flex;
   margin-left: 290px;
-  margin-top: 40px;
+  margin-top: 50px;
   font-family: "Montserrat";
   width: 254px;
   height: 20px;
   color: white;
   background: #282828;
-  margin-bottom: 40px;
   border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
+span .fourHr {
+  margin-top: 5px;
+  margin-bottom: 40px;
+  width: 540px;
+}
 .recording {
   font-size: 18px;
   font-family: "Montserrat";
@@ -335,4 +346,112 @@ select {
 }
 .recording:hover {
   background: #181717;
+}
+
+.foot {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 1894px;
+  height: 220px;
+  background: #998431;
+}
+.divNavFoot {
+  padding-top: 50px;
+  max-width: 1110px;
+}
+
+#foterNav {
+  font-family: "Montserrat";
+  width: 1110px;
+  font-size: 14px;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+
+  text-decoration: none;
+}
+
+#footerAA {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#footerA {
+  margin-right: 60px;
+}
+table {
+  font-family: "Montserrat";
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  width: 1110px;
+  padding-left: 50px;
+  padding-right: 10px;
+  /* padding: 20px 50px 20px 100px; */
+  border-bottom: 1px solid white;
+}
+
+table a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+td {
+  padding: 20px 40px 20px 40px;
+}
+#aTable {
+  padding-left: 60px;
+  padding-right: 0px;
+  text-align: left;
+  /* padding-left: 0px; */
+  border-right: 1px solid white;
+}
+#aTable {
+  transform: scale(1.1);
+}
+#aaTable {
+  padding-left: 40px;
+  text-align: center;
+  padding-right: 40px;
+  border-right: 1px solid white;
+}
+#aaaTable {
+  text-align: center;
+  padding-left: 40px;
+  border-right: 1px solid white;
+}
+#youtube {
+  margin-right: 25px;
+}
+#youtube:hover {
+  transform: scale(1.1);
+}
+#vk {
+  margin-right: 25px;
+}
+#vk:hover {
+  transform: scale(1.1);
+}
+#facebook:hover {
+  transform: scale(1.1);
+}
+#vine {
+  transition: color 0.5s linear;
+}
+#vine:hover {
+  color: blue;
+}
+#tel {
+  transition: color 0.5s linear;
+}
+#tel:hover {
+  color: blue;
+}
+#leCorter {
+  transition: color 0.5s linear;
+}
+#leCorter:hover {
+  color: blue;
 }
