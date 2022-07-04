@@ -100,6 +100,7 @@
 }
 .btn:hover {
   background-color: #996312;
+  cursor: pointer;
 }
 .btn:active {
   background-color: #633d04;
@@ -110,16 +111,13 @@
   top: 0;
   position: relative;
   background: #282828;
-  /* height: 856px; */
+  height: 856px;
   width: 1894px;
   font-family: "Playfair Display";
   color: white;
   align-items: center;
   text-align: center;
-
-  height: 700px;
   box-sizing: content-box;
-  padding-top: 20px;
 }
 
 .content-box {
@@ -202,7 +200,7 @@ h2 {
 .four {
   position: relative;
   width: 1894px;
-  height: 720px;
+  height: 760px;
   background: #282828;
   top: 0;
   left: 0;
@@ -225,7 +223,7 @@ h2 {
   height: 580px;
   box-sizing: border-box;
   border: 2px solid white;
-  margin-top: 80px;
+  margin-top: 130px;
   text-align: center;
 }
 ::placeholder {
@@ -280,7 +278,17 @@ h3 {
   margin-top: 90px;
   margin-bottom: 90px;
 }
+#place {
+  width: 540px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+  border-color: white;
+}
 
+#place:hover {
+  cursor: pointer;
+  background: #181717;
+}
 .name {
   width: 240px;
   height: 20px;
@@ -300,7 +308,7 @@ h3 {
   width: 240px;
   height: 20px;
   background: #282828;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   color: white;
   padding: 5px;
   border: 0;
@@ -341,11 +349,12 @@ span .fourHr {
 
   border-color: white;
   border-style: solid;
-  margin-top: 50px;
+  margin-top: 70px;
   transition: color 0.5s linear;
 }
 .recording:hover {
   background: #181717;
+  cursor: pointer;
 }
 
 .foot {
